@@ -1,0 +1,249 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+::-webkit-scrollbar{
+  display:none;
+}
+
+a:visited, a:link, a:hover, a:focus {
+	text-decoration: none;
+	color: black;
+}
+img[alt*="myprofileimg"] {
+	position: relative;
+	margin: 0 auto;
+	z-index: 4;
+	height: 250px;
+	border-radius: 50%;
+	padding: 20px;
+	display: inline-block;
+
+}
+
+img[alt="tiplogo"] {
+	height: 200px;
+	position: absolute;
+	top: 8%;
+	left: 70%;
+	
+}
+
+img[alt="pchslogo"] {
+	height: 200px;
+	position: absolute;
+	top: 33%;
+	left: 10%;
+
+}
+
+img[alt="tuittlogo"] {
+	height: 200px;
+	position: absolute;
+	top: 58%;
+	left: 73%;
+}
+
+
+img[alt="rblogo"] {
+	height: 200px;
+	position: absolute;
+	top: 83%;
+	left: 10%;
+}
+
+img[alt*="capstone"] {
+	margin-bottom: 15px;
+	height: 300px;
+	width: 100%;
+	border-radius: 8%;
+}
+
+span[alt*="icons"] {
+	padding: 10px;
+	background-color: white;
+	margin-right: 8px;
+	color: black;
+	border-radius: 100%;
+
+}
+
+.icon-hover {
+	display: inline-block;
+	transition: all 0.8s ease;
+}
+.icon-hover:hover {
+	/*transform: rotate(1080deg);*/
+	transform: scale(1.2,1.2);
+}
+
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.full-dev {
+	display: flex;
+	background-image: url(../images/creative-bg.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;	
+	height: 100vh;
+}
+
+.container-dev {
+	display: table;
+    margin: 0 auto;
+    padding: 0 20px;
+    height: 100%;
+}
+
+.content-dev {
+	display: table-cell;
+    position: relative;
+    z-index: 3;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.myname {
+	font-size: 2.3rem;
+    color: #fff;
+    margin-bottom: 0rem;
+}
+
+.whatido {
+	bottom: 2.5%;
+    display: inline-block;
+    font-size: 1.3rem;
+    left: 50%;
+    padding: 20px;
+    position: absolute;
+    white-space: nowrap;
+    z-index: 2;
+    text-decoration: none;
+    transition: transform 0.4s;
+    transform: translateX(-50%);
+}
+
+#aboutme {
+	color: rgba(52, 73, 94,1.0);
+}
+.whatido:hover {
+	 transform: translate(-50%,30px);
+}
+
+.section1, .section2, .section3, .section4 {
+	font-size: 2rem;
+	margin: 0px auto;
+	text-align: center;
+	margin-top: 5rem;
+	margin-bottom: 4rem;
+}
+
+.firstcol, .secondcol, .thirdcol {
+	text-align: center;
+	padding: 0px 50px;
+	min-height: 200px;
+	font-size: 1.2rem;
+	margin-bottom: 100px;
+}
+
+.exp {
+	background-image: linear-gradient(to right, #3ab5b0 0%, #3d99be 31%, #56317a 100%);
+	color: white;
+	padding: 0px 25%;
+	padding-bottom: 100px;
+}
+
+.subsec2 {
+	font-size: 1.7rem;
+	text-align: center;
+}
+
+.subsec2-1 {
+	font-size: 1.3rem;
+	text-align: justify;
+	padding: 100px 0px;
+}
+
+.container-section3 {
+	background-color: white;
+	padding: 0px 20%;
+	color: rgba(52, 73, 94,1.0);
+}
+
+.container-section4 {
+	padding: 0px 20% 100px 20%;
+	background-image: linear-gradient(to right, #3ab5b0 0%, #3d99be 31%, #56317a 100%);
+	color: white;
+}
+.subsec3 {
+	text-align: center;
+	font-size: 1.8rem;
+	margin-bottom: 30px;
+}
+
+li>a:visited, li>a:link {
+	color: white;
+	background-color: rgba(52, 73, 94,1.0);
+	padding: 10px;
+	border-radius: 5%;
+	width: 100%;
+}
+
+li>a:hover, li>a:focus {
+	 text-decoration: none;
+ 	 color: #FFDC00;
+}
+
+li {
+	padding: 15px;
+	font-size: 1.4rem;
+}
+.stacked--fan-right {
+    transform-origin: center bottom;
+    
+    &:before,
+    &:after {
+        transform-origin: 50% 100%;
+    }
+    
+    &:hover {
+        transform: translate(2.5px, 0) rotate(2.5deg);
+        
+        &:before { transform: translate(-2.5px, 0) rotate(-2.5deg); }
+        &:after { transform: translate(-5px, 0) rotate(-5deg); }
+    }
+}
+
+
+.footer {
+	padding-top: 50px;
+	height: 200px;
+	line-height: 50px;
+	color: white;
+	background-color: black;
+}
+
+
+.skill{
+  display:block;
+  color:rgba(41, 128, 185,1.0);
+  transition:all 0.2s ease-in;
+  transition-delay:0.3s;
+}
+.off{
+  opacity:0.6;
+  -webkit-transition:none;
+   -moz-transition:none;
+   transition:none;
+
+}
+
